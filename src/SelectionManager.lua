@@ -306,7 +306,10 @@ SelectionManager.init = function(plugin)
     end)
 
     plugin.Unloading:Connect(function()
-        selectionChanged:Disconnect()
+        if (selectionChanged) then
+            selectionChanged:Disconnect()
+            selectionChanged = nil
+        end
 
         selectionChangedEvent:Destroy()
         selectionColorsChangedEvent:Destroy()
