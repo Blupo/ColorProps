@@ -1,3 +1,5 @@
+# ColorProps
+
 ColorProps is a plugin that lets you use [ColorPane](https://github.com/Blupo/ColorPane) to view and edit the color properties of objects in Studio.
 
 If you want to support ColorPane's development, consider [donating](https://ko-fi.com/blupo).
