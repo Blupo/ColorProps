@@ -1,0 +1,12 @@
+[submodule "includes/roact"]
+	path = includes/roact
+	url = https://github.com/Roblox/roact
+[submodule "includes/APIUtils"]
+	path = includes/APIUtils
+	url = https://github.com/Blupo/roblox-apiutils
+[submodule "includes/rodux"]
+	path = includes/rodux
+	url = https://github.com/Roblox/rodux
+[submodule "includes/roact-rodux"]
+	path = includes/roact-rodux
+	url = https://github.com/Roblox/roact-rodux
