@@ -1,3 +1,6 @@
+warn("ColorProps's functionality has been integrated into ColorPane. Please uninstall this plugin and use ColorPane instead.")
+
+--[[
 local root = script.Parent
 local API = require(root:FindFirstChild("API"))
 local MakeStore = require(root:FindFirstChild("MakeStore"))
@@ -60,3 +63,4 @@ plugin.Unloading:Connect(function()
 		propertiesWidgetTree = nil
 	end
 end)
+--]]
